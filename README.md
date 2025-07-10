@@ -21,114 +21,105 @@ Vidtube is a full-featured video sharing platform inspired by YouTube. Users can
 
 ### Backend
 
-Node.js + Express.js
+- Node.js + Express.js
+- MongoDB with Mongoose
+- Cloudinary or AWS S3 for video and thumbnail uploads
+- JWT for authentication
+- Multer for file uploads
+- Bcrypt for password hashing
 
-MongoDB with Mongoose
+## 🔐 Features
 
-Cloudinary or AWS S3 for video and thumbnail uploads
+- 🔐 User Authentication & Authorization
+- 🎬 Video Uploading & Playback
+- 💬 Comment System
+- 👍 Like/Dislike Functionality
+- 🔍 Search Videos by Title/Tags
+- 🔔 Subscribe to Channels
+- 📈 View Count Tracking
+- 🧠 Trending & Recommended Videos
+- 📁 Channel Pages (User Profiles)
+- 🎨 Responsive UI
 
-JWT for authentication
+## 🚀 Getting Started
 
-Multer for file uploads
+### Clone the Repo
 
-Bcrypt for password hashing
-
-🔐 Features
-🔐 User Authentication & Authorization
-
-🎬 Video Uploading & Playback
-
-💬 Comment System
-
-👍 Like/Dislike Functionality
-
-🔍 Search Videos by Title/Tags
-
-🔔 Subscribe to Channels
-
-📈 View Count Tracking
-
-🧠 Trending & Recommended Videos
-
-📁 Channel Pages (User Profiles)
-
-🎨 Responsive UI
-
-🚀 Getting Started
-Clone the Repo
-bash
-Copy
-Edit
+```bash
 git clone <https://github.com/yourusername/vidtube.git>
 cd vidtube
-📦 Backend Setup
-Navigate to server/:
+```
 
-bash
-Copy
-Edit
+## 📦 Backend Setup
+
+### 1. Navigate to server/
+
+```bash
 cd server
 npm install
-Create a .env file:
+```
 
-env
-Copy
-Edit
+### 2. Create a .env file
+
+```env
 PORT=5000
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_jwt_secret
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_key
 CLOUDINARY_API_SECRET=your_secret
-Start the server:
+```
 
-bash
-Copy
-Edit
+### 3. Start the server
+
+```bash
 npm run dev
-🌐 Frontend Setup
-Navigate to client/:
+```
 
-bash
-Copy
-Edit
+## 🌐 Frontend Setup
+
+### 1.Navigate to client/
+
+```bash
 cd client
 npm install
-Create .env file:
+```
 
-env
-Copy
-Edit
+### 2. Create .env file
+
+```env
 VITE_API_URL=<http://localhost:5000/api>
-Start the app:
+```
 
-bash
-Copy
-Edit
+### 3. Start the app
+
+```bash
 npm run dev
-🧪 Testing & Deployment
-Local testing: ✅
+```
 
-Deployment ready on Render, Vercel, or Netlify + Railway.
+## 🧪 Testing & Deployment
 
-CI/CD optional using GitHub Actions.
+- Local testing: ✅
 
-📸 Screenshots
-You can include screenshots of:
+- Deployment ready on Render, Vercel, or Netlify + Railway.
 
-Home page
+- CI/CD optional using GitHub Actions.
 
-Video Watch page
+## 📸 Screenshots
 
-Upload UI
+###### Comming soon
 
-Comment section
+- Home page
+- Video Watch page
+- Upload UI
+- Comment section
+- Profile/channel page
 
-Profile/channel page
+## 🧑‍💻 Author
 
-🧑‍💻 Author
-Razz – GitHub | LinkedIn
-Built with ❤️ and TypeScript.
+Razz – ```GitHub```
+Built with ❤️ and JavaScript.
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📄 License
+
+This project is licensed under the MIT License - see the ```LICENSE``` file for details.
