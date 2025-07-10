@@ -12,9 +12,9 @@ Vidtube is a full-featured video sharing platform inspired by YouTube. Users can
 
 ### Frontend
 
-- React (with TypeScript)
+- React (with JavaScript)
 - Tailwind CSS for styling
-- Redux Toolkit or Zustand (for state management)
+- Zustand (for state management)
 - React Router DOM for routing
 - Axios for API requests
 - React Player for video playback
@@ -30,23 +30,23 @@ Vidtube is a full-featured video sharing platform inspired by YouTube. Users can
 
 ## 🔐 Features
 
-- 🔐 User Authentication & Authorization
-- 🎬 Video Uploading & Playback
-- 💬 Comment System
-- 👍 Like/Dislike Functionality
-- 🔍 Search Videos by Title/Tags
-- 🔔 Subscribe to Channels
-- 📈 View Count Tracking
-- 🧠 Trending & Recommended Videos
-- 📁 Channel Pages (User Profiles)
-- 🎨 Responsive UI
+- User Authentication & Authorization
+- Video Uploading & Playback
+- Comment System
+- Like/Dislike Functionality
+- Search Videos by Title/Tags
+- Subscribe to Channels
+- View Count Tracking
+- Trending & Recommended Videos
+- Channel Pages (User Profiles)
+- Responsive UI
 
 ## 🚀 Getting Started
 
 ### Clone the Repo
 
 ```bash
-git clone <https://github.com/yourusername/vidtube.git>
+git clone <https://github.com/rajscriptsGH/vidtube.git>
 cd vidtube
 ```
 
@@ -55,7 +55,7 @@ cd vidtube
 ### 1. Navigate to server/
 
 ```bash
-cd server
+cd backend
 npm install
 ```
 
@@ -81,7 +81,7 @@ npm run dev
 ### 1.Navigate to client/
 
 ```bash
-cd client
+cd frontend
 npm install
 ```
 
@@ -107,7 +107,7 @@ npm run dev
 
 ## 📸 Screenshots
 
-###### Comming soon
+### Comming soon
 
 - Home page
 - Video Watch page
