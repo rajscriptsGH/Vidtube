@@ -1,6 +1,6 @@
 # Vidtube
 
-A Full-Stack YouTube Clone built with MERN Stack + TypeScript + Tailwind CSS
+A Full-Stack APP inspired by Youtube built with MERN Stack + JavaScript + Tailwind CSS
 
 ## Description
 
