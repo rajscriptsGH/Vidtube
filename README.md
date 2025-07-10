@@ -1,4 +1,4 @@
-## Vidtube
+# Vidtube
 
 A Full-Stack YouTube Clone built with MERN Stack + TypeScript + Tailwind CSS
 
