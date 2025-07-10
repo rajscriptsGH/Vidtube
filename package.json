@@ -1,0 +1,22 @@
+{
+  "name": "vidtube",
+  "version": "1.0.0",
+  "description": "A project inspired by youtube",
+  "main": " src/index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "mongoose",
+    "express",
+    "backend"
+  ],
+  "author": "rajscripts",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
+}
